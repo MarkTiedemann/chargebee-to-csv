@@ -1,0 +1,35 @@
+{
+  "name": "chargebee-to-csv",
+  "version": "0.1.0",
+  "bin": {
+    "chargebee-to-csv": "chargebee-to-csv.js"
+  },
+  "scripts": {
+    "build": "pkg chargebee-to-csv.js --out-dir build"
+  },
+  "dependencies": {
+    "json2csv": "^3.9.1",
+    "minimist": "^1.2.0",
+    "node-fetch": "^1.7.1"
+  },
+  "devDependencies": {
+    "pkg": "^4.1.1"
+  },
+  "description": "Export Chargebee lists to CSV.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkTiedemann/chargebee-to-csv.git"
+  },
+  "keywords": [
+    "chargebee",
+    "export",
+    "list",
+    "csv"
+  ],
+  "author": "Mark Tiedemann <www.marktiedemann@gmail.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/MarkTiedemann/chargebee-to-csv/issues"
+  },
+  "homepage": "https://github.com/MarkTiedemann/chargebee-to-csv"
+}
