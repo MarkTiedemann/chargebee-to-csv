@@ -8,7 +8,7 @@
 npm i -g chargebee-to-csv
 ```
 
-Or download the [binaries](https://github.com/marktiedemann/chargebee-to-csv/releases).
+Or download the [binaries](https://github.com/hellohq-io/chargebee-to-csv/releases).
 
 ## Quickstart
 
@@ -19,8 +19,6 @@ chargebee-to-csv
   --file subscriptions.csv
 ```
 
-## License
+# License
 
-[WTFPL](http://www.wtfpl.net/) – Do What the F*ck You Want to Public License.
-
-Made with :heart: by [@MarkTiedemann](https://twitter.com/MarkTiedemannDE).
+MIT
